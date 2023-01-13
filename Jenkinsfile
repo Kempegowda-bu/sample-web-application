@@ -9,7 +9,7 @@ pipeline {
       stage('checkout') {
            steps {
              
-                git branch: 'master', url: 'https://github.com/Kempegowda-bu/Maven-petclinic-project'
+                git branch: 'master', url: 'https://github.com/Kempegowda-bu/sample-web-application'
              
           }
         }
